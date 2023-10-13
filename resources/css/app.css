@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.error{
+    background-color: rgb(255, 197, 197);
+    color : #c00404;
+    text-align: center;
+    padding: 7px 19px 10px 19px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.success{
+    background-color: #beffbe;
+    color : #0d9e0d;
+    text-align: center;
+    padding: 7px 19px 10px 19px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+}
